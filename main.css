@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.header-section {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-section h1 {
+  font-size: 36px;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.header-section p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  text-align: center;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.profile p {
+  margin: 5px 0;
+}
+
+.contect-container {
+  list-style: none;
+  padding: 0;
+}
+
+.contect-container li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.contect-container a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.contect-container a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.experience-section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h3 {
+  font-size: 28px;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about-me-intro p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.experience-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.experience-section li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
